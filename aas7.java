@@ -1,4 +1,4 @@
-import jsva.util.Scanner;
+import java.util.Scanner;
 
 public class ass7 {
 
