@@ -8,6 +8,7 @@ public class ass7 {
     Scanner y=new Scanner(System.in);
     System.out.print("please enter a desired operator");
     ch=y.next().charAt(0);
+    y.close();
     switch(ch)
     {
       case '+':
