@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class ass6 { 
 public void ifel(int year)
-{ int year=1948;
+{
+  int year=1948;
   if(year%400==0||year%100==0||year%4==0)
   {
     System.out.println(year+"= leap year");
@@ -20,7 +21,7 @@ System.out.print(year+" ");
     System.out.print(" a leap year");
     else{
       if( year%4==0)
-         system.out.print("a leap year");
+         System.out.print("a leap year");
          else
          {
            System.out.println(" not a leap year");
@@ -32,7 +33,7 @@ public void ifelif(int year)
 {
   if(year%400==0)
   System.out.println(year+"a leap year" );
-  else if(year%100=0)
+  else if(year%100==0)
   System.out.println(year+"a leap year");
   else if(year%4==0)
   System.out.println(year+"a leap year");
