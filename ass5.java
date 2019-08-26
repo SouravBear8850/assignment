@@ -5,9 +5,10 @@ public class ass5 {
   public static void main(String[] args) {
     
     double salary=0.0,ttax=0.0;
-    Scanner obj=new Scanner(Systrm.in);
+    Scanner obj=new Scanner(System.in);
     System.out.println("enter your Basic Salary");
     salary=obj.nextDouble();
+    obj.close();
     if( salary>0.00 && salary<=14999.99)
     ttax=0.00+salary*0.15;
     else if(salary>15000.00 && salary<=29999.99)
