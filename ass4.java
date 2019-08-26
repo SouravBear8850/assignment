@@ -9,6 +9,7 @@ public class ass4 {
      b=obj.nextInt();
      c=obj.nextInt();
      d=obj.nextInt();
+    obj.close();
      result=(a>b)?((a>c)?((a>d)?a:d):c):((b>c)?((b>d)?b:d):c);
      System.out.println("largest number of"+a+','+b+','+','+c+','+','+d+ "="+result);
   }
